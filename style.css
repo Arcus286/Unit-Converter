@@ -49,6 +49,8 @@ h2,p {
   width: 117px;
   font-size: medium;
   cursor: pointer;
+  font-weight: bold;
+  background-color: white;
 }
 
 #next-section {
