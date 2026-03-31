@@ -10,6 +10,10 @@ h1 {
   margin-bottom: 25px;
 }
 
+h2,p {
+  margin: 0px;
+}
+
 #card {
   text-align: center;
   width: 550px;
@@ -37,12 +41,34 @@ h1 {
   font-weight: bolder;
 }
 
-#convert-btn{
-    padding: 8px 16px;
-    border:none;
-    border-radius: 5px;
-    margin-top: 20px;
-    width: 117px;
-    font-size: medium;
-    cursor: pointer;
+#convert-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 5px;
+  margin-top: 20px;
+  width: 117px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+#next-section {
+  background-color: #e5e7eb;
+  box-sizing: border-box;
+  height:300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.metrics {
+  box-sizing: border-box;
+  background-color: white;
+  padding-top:10px;
+  margin: 0px auto;
+  width: 500px;
+  height: 60px;
+  border-radius: 5px;
+  color: #5A537B;
+  font-weight: bold;
 }
