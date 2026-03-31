@@ -22,7 +22,7 @@ function renderLength(conversionValue) {
 
 function renderVolume(conversionValue) {
   volumeVal.textContent = `${conversionValue} liters = ${(conversionValue * 0.264).toFixed(3)} gallons 
-  | ${conversionValue} liters = ${(conversionValue / 0.265).toFixed(3)} gallons`;
+  | ${conversionValue} gallons = ${(conversionValue / 0.265).toFixed(3)} litres`;
 }
 
 function renderMass(conversionValue) {
